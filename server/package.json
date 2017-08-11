@@ -1,0 +1,26 @@
+{
+  "name": "recipes-server",
+  "version": "1.0.0",
+  "description": "Server that exposes the API endpoint resources for Recipes website.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josephafajardo"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Joseph Fajardo",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.29",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0"
+  }
+}
